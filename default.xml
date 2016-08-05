@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="android-security"
+           fetch="https://github.com/android-security/" />
+
+  <project path="build" name="android_build" remote="android-security" revision="aosp-4.4" groups="pdk" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project path="art" name="android_art" remote="android-security" revision="aosp-4.4" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="android-security" revision="aosp-4.4" groups="pdk" />
+  <project path="dalvik" name="android_dalvik" remote="android-security" revision="aosp-4.4" />
+  <project path="external/aac" name="android_external_aac" remote="android-security" revision="aosp-4.4" groups="pdk" />
+  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="android-security" revision="aosp-4.4" groups="pdk" />
+  <project path="external/bouncycastle" name="android_external_bouncycastle" remote="android-security" revision="aosp-4.4" />
+  <project path="external/chromium_org" name="android_external_chromium_org" remote="android-security" revision="aosp-4.4" />
+  <project path="external/chromium_org/third_party/openssl" name="android_external_chromium_org_third_party_openssl" remote="android-security" revision="aosp-4.4" />
+  <project path="external/dhcpcd" name="android_external_dhcpcd" remote="android-security" revision="aosp-4.4" />
+  <project path="external/flac" name="android_external_flac" remote="android-security" revision="aosp-4.4" groups="pdk" />
+  <project path="external/libvpx" name="android_external_libvpx" remote="android-security" revision="aosp-4.4" groups="pdk" />
+  <project path="external/okhttp" name="android_external_okhttp" remote="android-security" revision="aosp-4.4" />
+  <project path="external/openssl" name="android_external_openssl" remote="android-security" revision="aosp-4.4" groups="pdk" />
+  <project path="external/skia" name="android_external_skia" remote="android-security" revision="aosp-4.4" />
+  <project path="external/sonivox" name="android_external_sonivox" remote="android-security" revision="aosp-4.4" groups="pdk" />
+  <project path="external/sqlite" name="android_external_sqlite" remote="android-security" revision="aosp-4.4" groups="pdk" />
+  <project path="external/tremolo" name="android_external_tremolo" remote="android-security" revision="aosp-4.4" groups="pdk" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="android-security" revision="aosp-4.4" groups="pdk" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="android-security" revision="aosp-4.4" groups="pdk" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="android-security" revision="aosp-4.4" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="android-security" revision="aosp-4.4" groups="pdk" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="android-security" revision="aosp-4.4" groups="pdk" />
+  <project path="libcore" name="android_libcore" remote="android-security" revision="aosp-4.4" />
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="android-security" revision="aosp-4.4" />
+  <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" remote="android-security" revision="aosp-4.4" />
+  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="android-security" revision="aosp-4.4" />
+  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="android-security" revision="aosp-4.4" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="android-security" revision="aosp-4.4" />
+  <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="android-security" revision="aosp-4.4" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="android-security" revision="aosp-4.4" />
+  <project path="system/core" name="android_system_core" remote="android-security" revision="aosp-4.4" groups="pdk" />
+  <project path="system/security" name="android_system_security" remote="android-security" revision="aosp-4.4" groups="pdk" />
+
+</manifest>
