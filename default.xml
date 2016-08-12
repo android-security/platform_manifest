@@ -18,6 +18,7 @@
   <project path="external/chromium_org/third_party/openssl" name="android_external_chromium_org_third_party_openssl" remote="android-security" revision="aosp-4.4" />
   <project path="external/dhcpcd" name="android_external_dhcpcd" remote="android-security" revision="aosp-4.4" />
   <project path="external/flac" name="android_external_flac" remote="android-security" revision="aosp-4.4" groups="pdk" />
+  <project path="external/jhead" name="android_external_jhead" remote="android-security" revision="aosp-4.4" groups="pdk" />
   <project path="external/libvpx" name="android_external_libvpx" remote="android-security" revision="aosp-4.4" groups="pdk" />
   <project path="external/okhttp" name="android_external_okhttp" remote="android-security" revision="aosp-4.4" />
   <project path="external/openssl" name="android_external_openssl" remote="android-security" revision="aosp-4.4" groups="pdk" />
