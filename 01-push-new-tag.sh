@@ -219,7 +219,7 @@ git push https://github.com/android-security/android_system_core.git $NEWTAG
 echo ""
 echo "----------------------------------------"
 echo "----------------------------------------"
-cd $SAUCE/system/
+cd $SAUCE/system/security
 git tag -a $NEWTAG -m 'Security Updates'
 git push https://github.com/android-security/android_system_security.git $NEWTAG
 echo ""
